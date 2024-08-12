@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio | terminal Welcome to my portfolio! — Type help for a list of supported commands.">
+  <meta name="keywords" content="shashank, shashankawasthi, portfolio, HTML, CSS, shashank_awasthi">
+  <meta name="author" content="Shashank Shekhar Awasthi">
+  <meta http-equiv="refresh" content="250">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+  <link href="main.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/39565093f3.js""></script>
+    <script>function close_window() {
+        if (confirm(" Close Window?")) { close(); }
+      } </script>
+       <script 
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+
+    $.getJSON('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=prithvijeet&api_key=88014e31fee3feab453dcef4f428e4dc&format=json',
+
+      function (data) {
+        let artist = document.getElementById("song")
+        let name = document.getElementById("track")
+
+
+        track = $(".track"),
+          artistVal = data.recenttracks.track[0].artist["#text"],
+          trackVal = data.recenttracks.track[0].name;
+
+
+        artist.append(artistVal);
+        name.append(trackVal);
+
+
+      });
+
+  </script>
+  <title>Shashank Shekhar Awasthi</title>
+</head>
+
+<body style="font-family: 'Ubuntu', sans-serif;" class="overflow-hidden lazy text-[1.1rem] overflow-y-scroll">
+
+  <div class="m-2 relative overflow-hidden" onclick="document.getElementById('texter').focus();">
+
+    <div
+      class="bg-[#1A1825D9] border-[#c4a7e7] border rounded-[7px] shadow-xl shadow-[#1d1e1fb4] resize overflow-y-scroll backdrop-blur-none transition-backdrop-filter duration-700 hover:backdrop-blur-lg"
+      style="max-height: calc(100vh + 2rem);">
+
+      <header>
+        <p class="p-2 text-center text-slate-400">
+          <a href="" target="blank"><i
+              class="fa-brands fa-linux pt-[2.5px] text-xl float-left text-slate-500 hover:text-pink-800"></i>shashank@archrx5500m</a>
+          <a href="javascript:close_window();"><i
+              class="fa-solid fa-circle-xmark pt-[2.5px] text-xl justify-end text-slate-500 hover:text-red-500 items-end  float-right"></i></a>
+        </p>
+        <hr class="border-[#9893a5]">
+      </header>
+      <div class="p-4">
+        <div class="flex flex-col md:flex-row">
+          <pre
+            class="ascii pt-2 pb-5 prose lg:prose-xl text-[#9ccfd8B3] whitespace-pre-wrap inline-block break-words leading-none"
+            style="font-family: monospace,-webkit-pictograph;">                                                           
+    ┏┓┓    ┓     ┓ 
+    ┗┓┣┓┏┓┏┣┓┏┓┏┓┃┏
+    ┗┛┛┗┗┻┛┛┗┗┻┛┗┛┗ 
+</pre>
+<div class="pl-2 float-right" ; style="font-family: 'Ubuntu', sans-serif;">
+  <div class="text-[#9ccfd8] md:text-[16px] text-[15px]"><i
+      class="fa-solid fa-address-card pr-[0.9rem]"></i>Shashank Shekhar Awasthi
+    <pre class="text-[#9ccfd8]">-----------------------</pre>
+ </div>
+<a href="https://drive.google.com/file/d/1gudK7YMQ0LStsSQHGagyRwets83mJiHH/view?usp=drive_link">
+      <div class="text-[#9ccfd8] text-[17.3px]"><i
+                  class="fa-solid fa-file-invoice pr-[1rem] justify-items-start"></i>Resume<a
+                  href="https://drive.google.com/file/d/1gudK7YMQ0LStsSQHGagyRwets83mJiHH/view?usp=drive_link"
+                  class="text-[14.8px] p-1">→ &nbsp;Download my resume....</a></div>
+                  <a href="https://wa.me/6394266190" target="_blank">
+                    <div class="text-[#9ccfd8] text-[17.3px]">
+                      <i class="fa-brands fa-whatsapp pr-[0.9rem]"></i>WhatsApp
+                      <span class="text-[14.8px] p-1">→ &nbsp;+91 63942 66190</span>
+                    </div>
+                  </a>
+      
+                  <a href="https://www.linkedin.com/in/shashank-shekhar-awasthi-3697a11b7/" target="blank">
+                    <div class="text-[#9ccfd8] text-[17.3px]"><i
+                        class="fa-brands fa-linkedin-in pr-[0.9rem] justify-items-start"></i>Linkedin<a
+                        href="https://www.linkedin.com/in/shashank-shekhar-awasthi-3697a11b7/" target="blank"
+                        class="text-[14.8px] p-1">→ &nbsp;linkedin.com/shashank</a></div>
+                    <a href="mailto:shashanka265@gmail.com" target="_blank">
+  <div class="text-[#9ccfd8] text-[17.3px]">
+    <i class="fa-solid fa-envelope pr-[0.9rem]"></i>Email
+    <span class="text-[14.8px] p-1">→ &nbsp;shashanka265@gmail.com</span>
+  </div>
+</a>
+ </div>
+          </div> 
+        </div>
+        <div id="terminal">
+          <a id="before"></a>
+        </div>
+        <div id="command" onclick="$('texter').focus();">
+          <input type="text" id="texter" class="texter" onkeyup="typeIt(this, event)" onkeydown="typeIt(this, event); 
+                   moveIt(this.value.length, event)" onkeypress="typeIt(this, event);"></input>
+          <div id="liner">
+            <span id="typer"></span><b class="cursor" id="cursor">█</b>
+            <div class="list"></div>
+
+          </div>
+        </div>
+        <footer class="lg:pt-[28.5%] pt-[100%]">
+          
+    </footer>
+    
+    <script>
+      // Function to check if the specific key combination is pressed
+      function checkKeyCombination(event) {
+        // Check if "Ctrl", "Alt", and "F8" keys are pressed
+        if (event.ctrlKey && event.altKey && event.key === "F8") {
+          // Redirect to the desired page
+          window.location.href = ""; 
+        }
+      }
+
+      // Event listener to detect key press
+      document.addEventListener("keydown", checkKeyCombination);
+    </script>
+    <script src="./js/caret.js"></script>
+    <script src="./js/commands.js"></script>
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
